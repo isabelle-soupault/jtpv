@@ -3,10 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -31,43 +38,119 @@
   <!--NavBar -->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <!--<a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>-->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>-->
-          <div class="btn-group">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-              Les Papiers
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="theWall.html">The Wall</a></li>
-              <!--<li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>-->
-            </ul>
-          </div>
-          
+    <div class="container">
+        <a href="index.html"><img src="assets/img/thewall.jpg" alt="logo" width="50px"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+        <a class="navbar-brand" href="index.html">Accueil</a>
 
-
+            <div class="btn-group">
+                <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Les Papiers
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="theWall.html">The Wall</a></li>
+                    <li><a class="dropdown-item" type="button">Cray'on</a></li>
+                    <!-- <li><button class="dropdown-item" type="button">Something else here</button></li>-->
+                </ul>
+            </div>
+      </div>
+    </div>
+  </nav>
   <!--Fin de la navBar -->
 
-  <body></body>
+  <body>
+    <div class="container-fluid bg-dark text-light p-5">
+      <h1>Pourquoi ce site ?</h1>
+    </div>
 
-  <footer></footer>
+    <div class="container text-dark">
+      <h2 class="p-2">Avant toute chose merci d'être ici et bienvenue !</h2>
+      <p class="p-2">
+        Ce site est pour vous faire partager mes différents tests de produits de
+        dessins. Je ne sais pas vous, mais en ce qui me concerne, je suis
+        complêtement fan d'articles d'art. J'ai du papier, des crayons, des
+        feutres et tout autre article pour le dessin, la peinture etc pour
+        plusieurs décénies d'utilisations intensives, et cela ne m'empêche pas
+        de vouloir toujours tester d'autres articles.
+      </p>
+      <p class="p-2">
+        Ainsi, avec tous ces articles, certains conviennent mieux à mes
+        utilisations et je vous partage mes différents tests, mes
+        expérimentations et mes ressentis.
+      </p>
+      <p class="p-2">
+        J'attire également votre attention sur le fait que je fais ça pour le
+        plaisir. Il ne s'agit pas ici de démonter une marque ou autre. Chacun
+        ses préférences et je le respecte profondément. Je veux juste essayer de
+        "juger" différents produits selon des critères simples. A chaque fois
+        j'expliquerai le test et j'ajouterai des photos pour que ce soit le plus
+        clair possible.
+      </p>
+
+      <p class="p-2">
+        Après, je suis comme tout le monde, j'ai bien évidement mes préférences.
+        Mais je vais essayer de rester la plus objective possible. 😊
+      </p>
+      <p class="text-center">
+        Je vous souhaite à présent une bonne navigation !
+      </p>
+
+      <div class="text-center">
+        <img
+          src="assets/img/thewall.jpg"
+          class="img-thumbnail"
+          alt="Papier canson The Wall"
+          title="Papier The Wall"
+        />
+
+        <!--remplacer image par une autre plus accurate -->
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="container-fluid pt-4">
+      <div class="row">
+        <div class="d-lg-flex align-items-center min-vh-25">
+          <div class="col-md-12 col-lg-4 text-center">
+            <div class="btn-group">
+              <button
+                type="button"
+                class="btn btn-secondary dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <h2>Mentions légales</h2>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="theWall.html"
+                    >Mentions légales</a
+                  >
+                </li>
+                <li>
+                  <button class="dropdown-item" type="button">Cookies</button>
+                </li>
+                <li>
+                  <button class="dropdown-item" type="button">
+                    Données personnelles
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 text-center mx-3">
+            <h2 class="pb-2">IzaWeb - Copyright 2021</h2>
+          </div>
+          <div class="col-md-12 col-lg-4 text-center mx-3">
+            <h2 class="pb-2">XXX</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
